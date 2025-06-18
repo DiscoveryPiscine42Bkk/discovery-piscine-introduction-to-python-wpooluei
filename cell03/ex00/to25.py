@@ -1,9 +1,6 @@
 
-value = int(input())
+value = int(input("Enter a number "))
 
 
-if value >= 25:
-	print("Error")
-else:
-	for num in range(value, 25+1):
-		print(f"Inside the loop, my variable is {num}")
+for num in range(10):
+	print(f"{num} x {value} = {num * value}")
